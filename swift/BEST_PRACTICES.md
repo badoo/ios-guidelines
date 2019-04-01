@@ -97,11 +97,11 @@ class UserTests: XCTestCase {
 
 ## Module name prefixes
 
-When creating and new framework module please use the following prefixes for
+When creating a new framework module please use the following prefixes for
 1) BF - if the module is a product feature and will reside alongside other features
 2) BP - if the module is not a feature module but a utility one like Network and reside outside of features folder
 
-The reason for having prefix is we can have and had issues that were caused by naming conflicts with system frameworks
+The reason for having prefix is we can have issues that were caused by naming conflicts with system frameworks. In the past we had one with Sharing.framework.
 
 **Preferred:**
 ```
